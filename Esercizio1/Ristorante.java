@@ -45,7 +45,7 @@ public class Ristorante {
 		StringBuilder result = new StringBuilder();
 		
 		for(int i=0 ; i<this.listaPietanze.size();i++) {
-			result.append((i+1)+") "+listaPietanze.get(i)+"\n");
+			result.append((i)+") "+listaPietanze.get(i)+"\n");
 		}
 		return result.toString();
 	}
